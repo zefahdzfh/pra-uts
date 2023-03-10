@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CLI</title>
+    <link rel="stylesheet" href="../src/css/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="flex justify-between flex-row max-h-screen">
+        <div class=" bg-cover bg- w-2/4 min-h-screen bg-bg-right2">
+            <div class="w-full mx-10 mt-10">
+                <h1 class="font-semibold text-2xl text-white my-5">CodingAja</h1>
+            </div>
+            <div class="mt-36 mx-32 w-full">
+                <h1 class="font-semibold text-5xl text-white my-5">Learn To Code.</h1>
+                <h1 class="font-semibold text-5xl text-white my-5">Interactively.</h1>
+                <h1 class="font-semibold text-5xl text-white my-5">For Free.</h1>
+                <button class="bg-white mt-14 w-48 h-16 flex items-center justify-center rounded-full  hover:shadow-2xl transition">
+                <i class="fa-solid fa-circle-play text-clrFigma text-4xl hover:text-white" ></i>
+                   <p class="ml-3 text-lg font-medium text-clrFigma "> Watch Demo </p>
+                </button>
+                <div class="w-full flex text-center items-center mt-32 gap-14">
+                    <a href="#"><p class="text-white font-medium text-base">Home</p></a>
+                    <a href="#"><p class="text-white font-medium text-base">Tour</p></a>
+                    <a href="#"><p class="text-white font-medium text-base">Courses</p></a>
+                    <a href="#"><p class="text-white font-medium text-base">Article</p></a>
+                    <a href="#"><p class="text-white font-medium text-base">Blog</p></a>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div class="w-2/4 bg-white flex justify-center items-center">
+            <main class="w-4/6">
+                <div class="mb-5 mt-2">
+                    <h1 class="font-medium text-3xl mb-2">Join Over 25 million <br> learners from around the globe </h1>
+                    <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia tempore
+                        labore ut odio fugiat consequuntur explicabo dolore, libero illo suscipit assumenda ab nihil
+                        sunt ea esse quisquam a facere natus?</p>
+                </div>
+                <div class="mb-3">
+                    <!-- <label for="email" class="font-medium text-lg">Email</label> -->
+                    <div class="flex gap-3 mt-2 px-4 py-2 rounded-md border shadow-md focus-within:border-clrFigma focus:ring focus:ring-sky-200 transition duration-200">
+                        <i class="fa-regular fa-envelope mt-1"></i>
+                        <input type="email" id="email"
+                            class=" w-full  hover:border-clrFigma focus:outline-none "
+                            placeholder="Input your email">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <!-- <label for="text" class="font-medium text-lg">Your Name</label> -->
+                    <div class="flex gap-3 mt-2 px-4 py-2 rounded-md border shadow-md focus-within:border-clrFigma focus:ring focus:ring-sky-200 transition duration-200">
+                        <i class="fa-regular fa-user mt-1"></i>
+                        <input type="email" id="email"
+                            class=" w-full  hover:border-clrFigma focus:outline-none "
+                            placeholder="Input your name">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <!-- <label for="password" class="font-medium text-lg">Set New Password</label> -->
+                    <div class="flex gap-3 mt-2 px-4 py-2 rounded-md border shadow-md focus-within:border-clrFigma focus:ring focus:ring-sky-200 transition duration-200">
+                        <i class="fa-solid fa-lock mt-1"></i>
+                        <input type="password" id="password"
+                            class=" w-full  hover:border-clrFigma focus:outline-none "
+                            placeholder="Input your New Password">
+                    </div>
+
+                <div class="mb-5 mt-5 flex justify-between">
+                    <div class="flex items-center gap-2 ">
+                        <input type="checkbox" name="bebas" id="cek" class="w-5 h-5 accent-clrFigma ">
+                        <label for="cek">I agree to all statement include in <a href="#" class="text-clrFigma font-medium" >Terms of Use</a></label>
+                    </div>
+
+                    <!-- <a href="#" class="text-clrFigma font-medium">Forgot Password?</a> -->
+                </div>
+                <div class="mb-6">
+                    <button
+                        class=" w-full bg-clrFigma text-white px-6 py-3 font-medium transition duration-300 rounded-md hover:bg-white hover:text-clrFigma border hover:ring hover:ring-sky-200">
+                        Start Coding Now
+                    </button>
+                </div>
+                <!-- <div class="mb-3">
+                    <a href="#" class="w-full bg-white text-black px-6 py-3 font-medium transition duration-300 rounded-md flex items-center justify-center hover:bg-red-200 hover:text-white border hover:ring hover:ring-red-200">
+                        <img src="../src/img/Google.png" alt="">
+                        <p class="font-medium">Sign In With Google</p>
+                    </a>
+                </div> -->
+                <div class="text-center">
+                    <p>Already a member ? <a href="#" class="text-clrFigma font-medium">Login</a></p>
+                </div>
+            </main>
+        </div>
+    </div>
+
+</body>
+
+</html>
